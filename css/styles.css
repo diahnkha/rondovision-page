@@ -323,6 +323,11 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+#sale h1 span{
+    padding-left: 15px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 #sale .content-bg{
     background-color: #FFFF;
     width: 270px;
