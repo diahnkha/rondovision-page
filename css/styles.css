@@ -255,6 +255,7 @@
 
 #catalog .catalog-collection{
     display: flex;
+    flex-wrap: wrap;
 }
 
 *{
