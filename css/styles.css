@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&display=swap');
 
 *, html, body{
     margin: 0;
@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     width: 1344px;
-    padding: 0 15%;
+    padding: 0 12%;
     margin: 0 auto;
 }
 
@@ -84,6 +84,18 @@
 
 .col-4{
     width: calc(100% / 3);
+}
+
+.col-3{
+    width: calc(100% / 4);
+}
+
+.col-2{
+    width: calc(100% * 1 / 6);
+}
+
+.col-8{
+    width: calc(100% * 2 / 3);
 }
 
 #title .image-desc{
@@ -295,6 +307,7 @@
     align-items: center;
     display: flex;
     background-color: orangered;
+    overflow: hidden;
 }
 
 #sale .images img{
@@ -374,8 +387,62 @@
     z-index: 1;
 }
 
+#vendor{
+    background-color: #FFFF;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
+#vendor .vendor-list{
+    justify-content: end;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
+/* #vendor .store{
+    background-color: aqua;
+} */
 
+/* #vendor .vendor-list{
+    background-color: hotpink;
+
+} */
+
+#vendor .store h1{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+}
+
+#vendor .store h4{
+    font-size: 14px;
+    color: #C2C2C2;
+    font-weight: 50px;
+    font-weight: 100;
+}
+
+#vendor .button a{
+    color: #FFFF;
+    background: black;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#vendor .vendor-detail img{
+    background-color: #F6F6F8;
+    height: 150px;
+    width: 150px;
+    padding: 30px 20px;
+}
 
 
