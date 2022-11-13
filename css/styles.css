@@ -290,6 +290,7 @@
 
 #sale{
     width: 100%;
+    height: 700px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -298,7 +299,8 @@
 
 #sale .images img{
     display: flex;
-    overflow: hidden;
+    height: 800px;
+    width: 500px;
 }
 
 #sale .content {
@@ -343,6 +345,28 @@
     line-height: 16px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+#sale .images{
+    position: relative;
+    top: -450px;
+    z-index: 1;
+}
+
+#sale .boxsatu{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(-30px 30px 0 #F9F8F8);
+    z-index: 2;
+}
+
+#sale .boxdua{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(-50px 50px 0 #FFFF);
+    z-index: 1;
 }
 
 
