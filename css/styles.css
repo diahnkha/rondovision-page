@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik+Mono+One&display=swap');
+
 *, html, body{
     margin: 0;
     padding: 0;
@@ -286,7 +288,62 @@
     margin-top: 30px;
 }
 
+#sale{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: orangered;
+}
 
+#sale .images img{
+    display: flex;
+    overflow: hidden;
+}
+
+#sale .content {
+    padding-left: 90px;
+    position: relative;
+}
+
+#sale .content-white{
+    color: black;
+    font-size: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+#sale h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#sale .content-bg{
+    background-color: #FFFF;
+    width: 270px;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+    transform: rotateY(0deg) rotate(-2deg);
+}
+
+#sale .content h5{
+    font-weight: 100;
+    font-size: 18px;
+}
+
+#sale .button a{
+    color: #FFFF;
+    background: black;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
 
 
