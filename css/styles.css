@@ -659,3 +659,7 @@
     top: 220px;
     right: 285px;
 }
+
+#footer .coba{
+    display: flex;
+}
