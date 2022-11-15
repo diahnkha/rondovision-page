@@ -253,7 +253,6 @@
 #catalog .container{
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 15%;
     overflow: hidden;
 }
 
@@ -291,6 +290,7 @@
 #catalog .catalog-product h5{
     color: #C2C2C2;
     font-weight: lighter;
+    margin-right: 20px;
 }
 
 #catalog .product-detail{
@@ -303,6 +303,7 @@
 
 #catalog .product-detail i{
     margin-top: 30px;
+    color: #C2C2C2;
 }
 
 #sale{
