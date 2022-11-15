@@ -660,6 +660,50 @@
     right: 285px;
 }
 
+#footer{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+#footer h4{
+    color: white;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+#footer li a{
+    font-weight: lighter;
+    color: #C2C2C2;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#footer h5{
+    color: #C2C2C2;
+    margin-bottom: 10px;
+}
+
 #footer .coba{
     display: flex;
+}
+
+#footer .icon-sosmed{
+    margin-top: 10px;
+    background-color: #FB8902;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
